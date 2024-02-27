@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script defer src="function.js"></script>
+    <script defer src="./js/function.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>Selusniaki</title>
 </head>
@@ -17,31 +17,31 @@
 
     <section id="section-top-menu">
         <video autoplay loop muted plays-inline class="video">
-            <source src="144584 (Original).mp4" type="video/mp4">
+            <source src="./assets/video-header.mp4" type="video/mp4">
         </video>
         <div class="container">        
             <div class="row">
                 <div id="col-side-bar" class="col-1">
                     <aside class="sidebar">
                         <header class="sidebar-header">
-                            <img class="logo-img" src="logo.png" alt="logo">
+                            <img class="logo-img" src="./assets/logo.png" alt="logo">
                             <div class="borda-orizontal"></div>
                         </header>
                 
                         <nav id="sideBarNav">
                             <button>
                                 <span>
-                                    <i class="material-symbols-outlined"><img src="whatsapp.png" alt="whatsapp"></i>
+                                    <i class="material-symbols-outlined"><img src="./assets/icons/whatsapp.png" alt="whatsapp"></i>
                                 </span>
                             </button>
                             <button>
                                 <span>
-                                    <i class="material-symbols-outlined"><img src="linkedin.png" alt="linkedin"></i>
+                                    <i class="material-symbols-outlined"><img src="./assets/icons/linkedin.png" alt="linkedin"></i>
                                 </span>
                             </button>
                             <button>
                                 <span>
-                                    <i class="material-symbols-outlined"><img src="behance.png" alt="behance"></i>
+                                    <i class="material-symbols-outlined"><img src="./assets/icons/behance.png" alt="behance"></i>
                                 </span>
                             </button>
                         </nav>
@@ -52,11 +52,11 @@
                         <nav class="nav">
                             <button class="hamburger"></button>
                             <ul class="nav-list">
-                                <li><a href="/">Início</a></li>
-                                <li><a href="/">Sobre</a></li>
-                                <li><a href="/">Skills</a></li>
-                                <li><a href="/">Serviços</a></li>
-                                <li><a href="/">Fale Comigo</a></li>
+                                <li><a href="#section-top-menu">Início</a></li>
+                                <li><a href="#section-sobre">Sobre</a></li>
+                                <li><a href="#section-servico-skills">Skills</a></li>
+                                <li><a href="#servicos">Serviços</a></li>
+                                <li><a href="#section-projeto-realizado">Projetos</a></li>
                             </ul>
                         </nav>
                     </header>
@@ -64,7 +64,7 @@
                         <div id="col-titulo" class="col">
                             <p id="titulo">DESENVOLVEDOR <br> E DESIGNER</p>
                             <p id="sub-titulo">Sou um entusiasta do desenvolvimento web com uma missão: <br> transformar ideias em experiências digitais extraordinárias.</p>
-                            <a class="btn-fale-comigo" href="/"><p><i><span class="material-symbols-outlined">arrow_circle_right</span></i>&nbsp;Fale Comigo</p></a>
+                            <a class="btn-fale-comigo" href="https://wa.me/+5541998050961"><p><i><span class="material-symbols-outlined">arrow_circle_right</span></i>&nbsp;Fale Comigo</p></a>
                         </div>
                     </div>
                 </div>
@@ -75,10 +75,7 @@
     <section id="section-borda-orizontal">
         <div class="container">
             <div class="row">
-                <div class="col col-transformando">
-                   <!--<p>Transformando seu site em <br> uma ferramenta poderosa.</p>
-                    <a href="/"><p><i><span class="material-symbols-outlined">arrow_circle_right</span></i>&nbsp;Solicitar Orçamento</p></a>--> 
-                </div>
+                <div class="col col-transformando"></div>
             </div>
         </div>
     </section>
@@ -94,7 +91,7 @@
                         <br> no crescimento do seu negócio, sabendo que seu <br>site está nas mãos de um especialista confiável.</p>
                 </div>
                 <div class="col img">
-                    <img id="pc" src="pc.jpg" alt="foto">
+                    <img id="pc" src="./assets/pc.jpg" alt="foto">
                 </div>
             </div>
         </div>
@@ -151,10 +148,11 @@
                     </div>
                 </div>
             </div>
+            <div id="servicos"></div>
             <div class="row">
                 <div class="col col-servico-skill">
                     <div class="lista-servicos-skills">
-                        <img src="code.png" alt="codigo">
+                        <img src="./assets/icons/code.png" alt="codigo">
                         <p class="titulo-servico-skill"> <br> <b>Código Limpo</b> </p>
                         <p class="descricao-servico-skill">
                             Existem muitas variações disponíveis 
@@ -165,7 +163,7 @@
                 </div>
                 <div class="col col-servico-skill">
                     <div class="lista-servicos-skills">
-                        <img src="design-grafico.png" alt="design">
+                        <img src="./assets/icons/design-grafico.png" alt="design">
                         <p class="titulo-servico-skill"> <br> <b>Design Criatiivo</b> </p>
                         <p class="descricao-servico-skill">
                             Existem muitas variações disponíveis 
@@ -176,7 +174,7 @@
                 </div>
                 <div class="col col-servico-skill">
                     <div class="lista-servicos-skills">
-                        <img src="performance.png" alt="desempenho">
+                        <img src="./assets/icons/performance.png" alt="desempenho">
                         <p class="titulo-servico-skill"> <br> <b>Foco em Desempenho</b> </p>
                         <p class="descricao-servico-skill">
                             Existem muitas variações disponíveis 
@@ -187,7 +185,7 @@
                 </div>
                 <div class="col col-servico-skill">
                     <div class="lista-servicos-skills">
-                        <img src="suporte.png" alt="suporte">
+                        <img src="./assets/icons/suporte.png" alt="suporte">
                         <p class="titulo-servico-skill"> <br> <b>Suporte Rápido</b> </p>
                         <p class="descricao-servico-skill">
                             Existem muitas variações disponíveis 
@@ -205,7 +203,7 @@
             <div class="row titulo-projeto">
                 <p class="titulo-projeto">Projetos</p>
                 <div class="col col-img-projeto">
-                    <a href="https://milanoadvocacia.com.br/"><img class="img-projeto" src="projeto-milano.png" alt="projeto-milano"></a>
+                    <a href="https://milanoadvocacia.com.br/"><img class="img-projeto" src="./assets/projeto-milano.png" alt="projeto-milano"></a>
                 </div>
                 <div class="col">
                     <p class="sub-titulo-projeto">Projeto realizado para atender solicitação <br>de um escritório de advocacia</p>
@@ -218,42 +216,42 @@
         <div class="container">
             <div class="row row-footer">
                 <div class="col">
-                    <img class="logo-footer" src="logo.png" alt="logo">
+                    <img class="logo-footer" src="./assets/logo.png" alt="logo">
                     <p>Existem muitas variações disponíveis <br>
                         de passagens de Lorem Ipsum, mas</p>
                 </div>
                 <div class="col col-lista-footer">
                     <ul class="lista-footer">
                         <li>
-                            <a href="">Inicio</a>
+                            <a href="#section-top-menu">Inicio</a>
                         </li>
                         <li>
-                            <a href="">Sobre</a>
+                            <a href="#section-sobre">Sobre</a>
                         </li>
                         <li>
-                            <a href="">Skills</a>
+                            <a href="#section-servico-skills">Skills</a>
                         </li>
                         <li>
-                            <a href="">Serviços</a>
+                            <a href="#servicos">Serviços</a>
                         </li>
                         <li>
-                            <a href="">Fale comigo</a>
+                            <a href="https://wa.me/+5541998050961">Fale comigo</a>
                         </li>
                     </ul>
                     <ul class="lista-redes-sociais">
                         <li>
                             <a href="">
-                                <i class="material-symbols-outlined"><img src="whatsapp.png" alt="whatsapp"></i>
+                                <i class="material-symbols-outlined"><img src="./assets/icons/whatsapp.png" alt="whatsapp"></i>
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <i class="material-symbols-outlined"><img src="linkedin.png" alt="linkedin"></i>
+                                <i class="material-symbols-outlined"><img src="./assets/icons/linkedin.png" alt="linkedin"></i>
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <i class="material-symbols-outlined"><img src="behance.png" alt="behance"></i>
+                                <i class="material-symbols-outlined"><img src="./assets/icons/behance.png" alt="behance"></i>
                             </a>
                         </li>
                     </ul>
