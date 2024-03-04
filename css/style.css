@@ -48,7 +48,7 @@ body{
     margin-right: 2vh;
 }
 
-.borda-orizontal {
+.borda-horizontal {
     border-bottom: 1px solid rgb(255, 255, 255);
     height: 10px;
 }
@@ -124,7 +124,7 @@ body{
     cursor: pointer;
     position: fixed;
     top: 26px;
-    right: 70px;
+    right: 30px;
 }
 
 .hamburger::before,
@@ -404,6 +404,11 @@ body{
 }
 
 @media (max-width: 750px) {
+
+    .header {
+        margin-top: 0;
+    }
+    
     .hamburger {
         display: block;
         z-index: 1;
@@ -475,13 +480,114 @@ body{
         top: -7px;
     }
 
+    .video {
+        display: none;
+    }
+
     #col-side-bar {
         display: none;
     }
 
+    #col-titulo {
+        margin-top: 0%;
+    }
+
+    #titulo {
+        font-size: 3vh;
+    }
+
+    #sub-titulo {
+        font-size: 2vh;
+    }
+
+    .btn-fale-comigo span {
+        font-size: 2vh;
+        margin-top: 0.4vh;
+    }
+
+    .btn-fale-comigo p {
+        font-size: 2vh;
+    }
+
+    #section-borda-horizontal {
+        margin-inline: 2vh;
+    }
+
+    #section-sobre {
+        padding-inline: 0;
+        padding-block: 0;
+        margin-inline: 0;
+    }
+
+    .texto {
+        margin-block: 0;
+    }
+
+    .titulo-sobre {
+        font-size: 3vh;
+    }
+
+    .descricao-sobre {
+        font-size: 2vh;
+    }
+
+    .img {
+        display: none;
+    }
+
+    #section-servico-skills {
+        padding-inline: 0;
+        padding-block: 0;
+        margin-inline: 0;
+        margin-top: 3vh;
+    }
+
+    .tiutlo-servico-skills {
+        font-size: 3vh;
+    }
+
+    .col-servico-skill {
+        margin-block: 0;
+        margin-top: 3vh;
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    .lista-skill {
+        padding-inline: 0;
+        font-size: 2.1vh;
+    }
+
+    .titulo-servico-skill {
+        font-size: 2vh;
+    }
+
+    #section-projeto-realizado {
+        padding-inline: 0;
+        padding-block: 0;
+        margin-inline: 0;
+        margin-top: 3vh;
+    }
+
+    .titulo-projeto {
+        font-size: 3vh;
+    }
+
+    .col-img-projeto {
+        flex: 0 0 auto;
+        width: auto;
+        margin-top: 3vh;
+        margin-block: 0;
+    }
+
+    .sub-titulo-projeto {
+        margin-top: 3vh;
+        font-size: 2vh;
+    }
+
     #footer {
         padding-inline: 0;
-        margin-top: 5vh;
+        margin-top: 3vh;
         border-top: 1px solid white;
         padding-block: 2vh;
         margin-inline: 2vh;
